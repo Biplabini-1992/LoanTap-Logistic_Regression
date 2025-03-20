@@ -73,3 +73,6 @@ initial_list_status : The initial listing status of the loan. Possible values ar
     - Addressing the industry challenge of Non-Performing Assets (NPA) while ensuring a profitable lending strategy
 
 ## Insights & Recommendations:
+    - Identify key factors influencing loan approval
+    - Recommend risk-adjusted lending strategies
+    - Suggest improvements in applicant screening to optimize default rates
