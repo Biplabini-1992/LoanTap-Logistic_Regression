@@ -42,3 +42,34 @@ initial_list_status : The initial listing status of the loan. Possible values ar
 - mort_acc : Number of mortgage accounts.
 - pub_rec_bankruptcies : Number of public record bankruptcies.
 - Address: Address of the individual.
+## Key Steps:
+
+  ## 1. Exploratory Data Analysis (EDA):
+    - Inspect dataset structure and characteristics
+    - Visualize the relationship between Loan_Status and predictor variables (count plots, box plots, heat maps, etc.)
+    - Analyze correlations among independent variables to understand their interactions
+
+## 2. Feature Engineering:
+    - Creating Flags for specific features:
+    - Pub_rec: Flag set to 1 if value > 1, else 0
+    - Mort_acc: Flag set to 1 if value > 1, else 0
+    - Pub_rec_bankruptcies: Flag set to 1 if value > 1, else 0
+    - Handling missing values and outliers
+    - Scaling numerical features using MinMaxScaler or StandardScaler
+
+## 3. Model Building:
+    - Logistic Regression using sklearn or statsmodels
+    - Explanation of model coefficients and their impact on loan approval
+
+## 4. Model Evaluation:
+    - Classification Report (Precision, Recall, F1-Score, Accuracy)
+    - ROC-AUC Curve
+
+## 5.Precision-Recall Curve:
+    - Precision vs. Recall Tradeoff
+    - Discussion on the importance of optimizing precision and recall:
+    - Ensuring detection of real defaulters (Reducing false negatives)
+    - Minimizing false positives to avoid unnecessary loan rejections
+    - Addressing the industry challenge of Non-Performing Assets (NPA) while ensuring a profitable lending strategy
+
+## Insights & Recommendations:
