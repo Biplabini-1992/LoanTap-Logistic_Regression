@@ -12,9 +12,7 @@ This will ensure that LoanTap offers personalized, fair, and risk-adjusted loan 
 
 
 ## Dataset Information:
-### Source: Please check the dataset at: "Dataset Link"
-
-### Feature Information:
+The dataset has following features.
 - loan_amnt : The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value.
 - term : The number of payments on the loan. Values are in months and can be either 36 or 60.
 - int_rate : Interest Rate on the loan
